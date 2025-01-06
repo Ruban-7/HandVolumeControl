@@ -26,7 +26,7 @@ This project demonstrates a real-time hand gesture recognition system that allow
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/YourUsername/Advanced-Hand-Gesture-Volume-Control.git
+    git clone https://github.com/YourUsername/HandVolumeControl.git
     ```
 
 2. Install required dependencies:
