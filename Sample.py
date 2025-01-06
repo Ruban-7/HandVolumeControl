@@ -28,9 +28,12 @@ volBar=400
 volPer=0
 while True:
     success, img = cap.read()
+    #Find Hand
     img = detector.findHands(img)
     lmlist, _ = detector.findPosition(img, draw=False)
     if len(lmlist) > 12:  # Check if the required landmarks are detected
+
+
         #print(lmlist[4], lmlist[8])
         x1, y1 = lmlist[4][1], lmlist[4][2]
         x2, y2 = lmlist[8][1], lmlist[8][2]
